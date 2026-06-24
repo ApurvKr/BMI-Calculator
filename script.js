@@ -24,7 +24,7 @@ function calcBmi(event) {
   else if(bmi >= 25 && bmi <=29.9){
     para.textContent = "You need to lose some 😝"
   }
-  else {
+  else if(bmi >= 30){
     para.textContent = "Take your weight seriously 😥"
   }
 }
